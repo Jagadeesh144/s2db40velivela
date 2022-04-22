@@ -2,7 +2,16 @@ body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
+.UshodayaAttr {
+  background-color: aquamarine;
+  width: 120px;
+  }
 
 a {
   color: #00B7FF;
+}
+.UshodayaDetailAttr{
+  background-color:rgb(255, 252, 196); 
+  width: 120px; 
+  border: 1px solid black;
 }

@@ -13,18 +13,18 @@ router.get('/', api_controller.api);
 /// Ushodaya ROUTES /// 
  
 // POST request for creating a Ushodaya.  
-router.post('/Ushodayas', Ushodaya_controller.Ushodaya_create_post); 
+router.post('/Ushodaya', Ushodaya_controller.Ushodaya_create_post); 
  
 // DELETE request to delete Ushodaya. 
-router.delete('/Ushodayas/:id', Ushodaya_controller.Ushodaya_delete); 
+router.delete('/Ushodaya/:id', Ushodaya_controller.Ushodaya_delete); 
  
 // PUT request to update Ushodaya. 
-router.put('/Ushodayas/:id', Ushodaya_controller.Ushodaya_update_put); 
+router.put('/Ushodaya/:id', Ushodaya_controller.Ushodaya_update_put); 
  
 // GET request for one Ushodaya. 
-router.get('/Ushodayas/:id', Ushodaya_controller.Ushodaya_detail); 
+router.get('/Ushodaya/:id', Ushodaya_controller.Ushodaya_detail); 
  
 // GET request for list of all Ushodaya items. 
-router.get('/Ushodayas', Ushodaya_controller.Ushodaya_list); 
+router.get('/Ushodaya', Ushodaya_controller.Ushodaya_list); 
  
 module.exports = router; 
