@@ -1,13 +1,13 @@
 extends layout 
  
 block content 
-  div(class="container-fluid mt-3 mystyle" ) Welcome to Hotel Application
+  div(class="container-fluid mt-3 mystyle" ) Welcome to Ushodaya Application
   if (!user) 
     a(href="/login") Login 
     br 
     a(href="/register") Register 
   if (user) 
     p You are currently logged in as #{user.username} 
-    a(href="/hotel") Take me to hotel 
+    a(href="/Ushodaya") Take me to Ushodaya
     br 
     a(href="/logout") Logout 
