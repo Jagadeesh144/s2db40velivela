@@ -5,7 +5,11 @@ const UshodayaSchema = mongoose.Schema({
      minLength: 1,
      maxLength: 15
  },
- Quantity: String, 
+ Quantity: {
+  type: String,
+  min: 1,
+  max: 2 
+ },
  price: String 
 }) 
  
