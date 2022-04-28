@@ -19,7 +19,7 @@ router.get('/detail', Ushodaya_controlers.Ushodaya_view_one_Page);
 
 router.get('/create', Ushodaya_controlers.Ushodaya_create_Page);
 
-router.get('/update', Ushodaya_controlers.Ushodaya_update_Page);
+router.get('/update',secured, Ushodaya_controlers.Ushodaya_update_Page);
 router.get('/delete', Ushodaya_controlers.Ushodaya_delete_Page);
 
 
